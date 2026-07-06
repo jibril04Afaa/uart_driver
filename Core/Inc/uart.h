@@ -1,5 +1,14 @@
 #ifndef UART_H
-#define UART_H
+#define
+
+/* A status register (USART_SR)
+   Data Register (USART_DR)
+   A baud rate register (USART_BRR) - 12-bit mantissa and 4-bit fraction.
+   A Guardtime Register (USART_GTPR) in case of Smartcard mode.
+
+   SOURCE: stm32f411xe reference manual
+*/
+
 
 /* initialize USART2 */
 void uart_init();

@@ -3,7 +3,10 @@
 
 
 /* initialize USART2 */
-void uart_init();
+void uart_init()
+{
+
+}
 
 /* send a single character */
 void uart_send_char(char c);
